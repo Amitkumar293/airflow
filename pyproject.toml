@@ -1201,6 +1201,8 @@ mypy_path = [
     "$MYPY_CONFIG_FILE_DIR/providers/hashicorp/tests",
     "$MYPY_CONFIG_FILE_DIR/providers/http/src",
     "$MYPY_CONFIG_FILE_DIR/providers/http/tests",
+    "$MYPY_CONFIG_FILE_DIR/providers/ibm/db2/src",
+    "$MYPY_CONFIG_FILE_DIR/providers/ibm/db2/tests",
     "$MYPY_CONFIG_FILE_DIR/providers/ibm/mq/src",
     "$MYPY_CONFIG_FILE_DIR/providers/ibm/mq/tests",
     "$MYPY_CONFIG_FILE_DIR/providers/imap/src",
@@ -1493,6 +1495,7 @@ apache-airflow-providers-google = false
 apache-airflow-providers-grpc = false
 apache-airflow-providers-hashicorp = false
 apache-airflow-providers-http = false
+apache-airflow-providers-ibm-db2 = false
 apache-airflow-providers-ibm-mq = false
 apache-airflow-providers-imap = false
 apache-airflow-providers-influxdb = false
@@ -1651,6 +1654,7 @@ apache-airflow-providers-google = false
 apache-airflow-providers-grpc = false
 apache-airflow-providers-hashicorp = false
 apache-airflow-providers-http = false
+apache-airflow-providers-ibm-db2 = false
 apache-airflow-providers-ibm-mq = false
 apache-airflow-providers-imap = false
 apache-airflow-providers-influxdb = false
@@ -1816,6 +1820,7 @@ apache-airflow-providers-google = { workspace = true }
 apache-airflow-providers-grpc = { workspace = true }
 apache-airflow-providers-hashicorp = { workspace = true }
 apache-airflow-providers-http = { workspace = true }
+apache-airflow-providers-ibm-db2 = { workspace = true }
 apache-airflow-providers-ibm-mq = { workspace = true }
 apache-airflow-providers-imap = { workspace = true }
 apache-airflow-providers-influxdb = { workspace = true }
@@ -1957,6 +1962,7 @@ members = [
     "providers/grpc",
     "providers/hashicorp",
     "providers/http",
+    "providers/ibm/db2",
     "providers/ibm/mq",
     "providers/imap",
     "providers/influxdb",
